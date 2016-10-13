@@ -1,0 +1,11 @@
+.DS_Store
+Runtime/*
+.idea/*
+production
+test
+bin/debug.log
+
+
+vendor
+vendor/*
+composer.lock

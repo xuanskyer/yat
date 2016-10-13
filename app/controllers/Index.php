@@ -1,0 +1,13 @@
+<?php
+/**
+ * @node_name 导航权限节点描述
+ * Desc: 功能描述
+ * Created by PhpStorm.
+ * User: 张鹏玄 | <zhangpengxuan@yundun.com>
+ * Date: 2016/10/13 11:59
+ */
+class IndexController extends Yaf_Controller_Abstract {
+    public function indexAction() {//默认Action
+        $this->getView()->assign("content", "Hello World");
+    }
+}
